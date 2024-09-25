@@ -10,7 +10,7 @@ export default function Footer() {
           © {currentYear} ReplyGen | All rights reserved
         </p>
         <p className="mt-2 text-sm sm:text-base">
-          (Made by: Wilfredo Aaron Sosa Ramos)
+          Made by: Wilfredo Aaron Sosa Ramos
         </p>
       </div>
     </footer>
