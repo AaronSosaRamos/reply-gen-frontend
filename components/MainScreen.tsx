@@ -14,6 +14,7 @@ export default function MainScreen() {
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-white drop-shadow-lg tracking-wide">
           ReplyGen
           <FaRobot className="inline-block ml-2 sm:ml-3 animate-spin-slow text-yellow-500" />
+          <FiMail className="inline-block ml-2 sm:ml-3 animate-spin-slow text-red-500" />
         </h1>
         <p className="text-base sm:text-xl lg:text-2xl text-white dark:text-gray-300 transition-all">
           Automate your email replies with AI-powered intelligence.
