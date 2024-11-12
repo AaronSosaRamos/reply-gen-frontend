@@ -50,7 +50,7 @@ export default function Navbar() {
                 Home
               </span>
             </Link>
-            <Link href="/replygen">
+            <Link href="/form">
               <span className="text-lg text-gray-900 dark:text-gray-100 hover:text-blue-500 dark:hover:text-yellow-400 transition-colors">
                 ReplyGen
               </span>
@@ -93,7 +93,7 @@ export default function Navbar() {
                 Home
               </span>
             </Link>
-            <Link href="/replygen">
+            <Link href="/form">
               <span
                 onClick={() => setMenuOpen(false)}
                 className="block text-lg text-gray-900 dark:text-gray-100 hover:text-blue-500 dark:hover:text-yellow-400 transition-colors"

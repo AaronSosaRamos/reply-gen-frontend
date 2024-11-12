@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMail, FiSettings, FiArrowRight } from 'react-icons/fi';
+import { FiMail, FiArrowRight } from 'react-icons/fi';
 import { FaRobot, FaEnvelopeOpenText, FaUserTie } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -27,10 +27,9 @@ export default function MainScreen() {
               <FiArrowRight className="text-xl" />
             </button>
           </Link>
-          <Link href="/settings">
+          <Link href="/contact-us">
             <button className="flex items-center justify-center space-x-2 px-6 py-3 sm:px-8 sm:py-4 bg-yellow-500 text-blue-900 dark:bg-yellow-400 dark:text-gray-900 font-bold text-lg rounded-full shadow-2xl hover:bg-yellow-400 dark:hover:bg-yellow-500 transition-transform transform hover:scale-105">
-              <span>Settings</span>
-              <FiSettings className="text-xl" />
+              <span>Contact Us</span>
             </button>
           </Link>
         </div>
